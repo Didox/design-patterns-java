@@ -1,4 +1,4 @@
-package br.com.didox.design_partterns.strategy.usando_singleton;
+package br.com.didox.design_partterns.singleton.utilizando;
 
 import java.util.ArrayList;
 

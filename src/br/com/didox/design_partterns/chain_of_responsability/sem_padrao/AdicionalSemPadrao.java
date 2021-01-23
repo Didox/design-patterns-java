@@ -1,4 +1,4 @@
-package br.com.didox.design_partterns.strategy.chain_of_responsability.sem_padrao;
+package br.com.didox.design_partterns.chain_of_responsability.sem_padrao;
 
 public class AdicionalSemPadrao {
 	protected AdicionalSemPadrao proximo;

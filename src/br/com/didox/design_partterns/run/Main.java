@@ -2,13 +2,6 @@ package br.com.didox.design_partterns.run;
 
 import java.util.Scanner;
 
-import br.com.didox.design_partterns.strategy.singleton.Email;
-import br.com.didox.design_partterns.strategy.usando_singleton.Armazenamento;
-import br.com.didox.design_partterns.strategy.usando_singleton.Escritorio;
-import br.com.didox.design_partterns.strategy.usando_singleton.Mesanino;
-import br.com.didox.design_partterns.strategy.usando_singleton.Presente;
-import br.com.didox.design_partterns.strategy.usando_singleton.TipoProduto;
-
 import br.com.didox.design_partterns.strategy.com_padrao.Fisica;
 import br.com.didox.design_partterns.strategy.com_padrao.Juridica;
 import br.com.didox.design_partterns.strategy.sem_padrao.Pessoa;
@@ -16,8 +9,14 @@ import br.com.didox.design_partterns.chain_of_responsability.com_padrao.ComEstam
 import br.com.didox.design_partterns.chain_of_responsability.com_padrao.ComNomePersonalizado;
 import br.com.didox.design_partterns.chain_of_responsability.com_padrao.ComSeloCorredor;
 import br.com.didox.design_partterns.chain_of_responsability.com_padrao.Produto;
-import br.com.didox.design_partterns.strategy.chain_of_responsability.sem_padrao.AdicionalSemPadrao;
-import br.com.didox.design_partterns.strategy.chain_of_responsability.sem_padrao.ProdutoSemPadrao;
+import br.com.didox.design_partterns.chain_of_responsability.sem_padrao.AdicionalSemPadrao;
+import br.com.didox.design_partterns.chain_of_responsability.sem_padrao.ProdutoSemPadrao;
+import br.com.didox.design_partterns.singleton.Email;
+import br.com.didox.design_partterns.singleton.utilizando.Armazenamento;
+import br.com.didox.design_partterns.singleton.utilizando.Escritorio;
+import br.com.didox.design_partterns.singleton.utilizando.Mesanino;
+import br.com.didox.design_partterns.singleton.utilizando.Presente;
+import br.com.didox.design_partterns.singleton.utilizando.TipoProduto;
 
 
 public class Main {

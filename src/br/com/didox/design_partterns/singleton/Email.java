@@ -1,4 +1,4 @@
-package br.com.didox.design_partterns.strategy.singleton;
+package br.com.didox.design_partterns.singleton;
 
 public class Email {
 	private Email(String _emailDe, String _host, String _usuario, String _senha) {
