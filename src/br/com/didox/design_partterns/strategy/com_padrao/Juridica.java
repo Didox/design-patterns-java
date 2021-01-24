@@ -1,6 +1,6 @@
 package br.com.didox.design_partterns.strategy.com_padrao;
 
-public class Juridica implements Pessoa, PessoaJuridica{
+public class Juridica implements IPessoa, IPessoaJuridica{
 	private String cnpj;
 	private String razaoSocial;
 	

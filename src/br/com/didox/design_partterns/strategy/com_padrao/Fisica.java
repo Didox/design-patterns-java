@@ -1,6 +1,6 @@
 package br.com.didox.design_partterns.strategy.com_padrao;
 
-public class Fisica implements Pessoa, PessoaFisica {
+public class Fisica implements IPessoa, IPessoaFisica {
 
 	private String nome;
 	private String cpf;
